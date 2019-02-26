@@ -55,17 +55,15 @@ func main() {
 
 ### Functions:
 ```
-Query(params TrwRequest)
+Query(params TrwYtRequest)
 Next(nexturl string)
 ```
 
 ### Input Params:
 * Token: string with service key
-* Query: String with trawling query
+* Query: String with youtube query
 * Ts: unixtimestamp in ms
 * Tsi: unixtimestamp in ms
-* Sort: "published"/"crawled"
-* Order: "asc"/"desc"
 
 
 ### Input Params struct:
