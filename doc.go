@@ -20,6 +20,7 @@ type TrwYtArticle struct {
 	Published            time.Time       `json:"published"`
 	ChannelID            string          `json:"channelId"`
 	ChannelTitle         string          `json:"channelTitle"`
+	Title                string          `json:"title"`
 	Description          string          `json:"description"`
 	Thumbnails           TrwYtThumbnails `json:"thumbnails"`
 	Tags                 []string        `json:"tags"`
