@@ -102,7 +102,7 @@ type TrwYtArticle struct {
 	CategoryID           string          `json:"categoryId"`
 	LiveBroadcastContent string          `json:"liveBroadcastContent"`
 	ViewCount            string          `json:"viewCount"`
-	LikeCont             string          `json:"likeCont"`
+	LikeCount            string          `json:"likeCount"`
 	DislikeCount         string          `json:"dislikeCount"`
 	FavoriteCount        string          `json:"favoriteCount"`
 	CommentCount         string          `json:"commentCount"`
